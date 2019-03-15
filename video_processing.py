@@ -9,8 +9,8 @@ f = open('path.txt')
 initial = VideoFileClip('.'.join(in_name))
 project = f.readline()
 target = project + '.'.join(in_name)
-base = project + '\\data'
-destination = project + '\\glitch_data'
+base = project + '\\data' #change here
+destination = project + '\\glitch_data' #change here
 videos = []
 
 try:
